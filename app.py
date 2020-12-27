@@ -48,7 +48,7 @@ model_3l = load_model(filename)
 filename = 'conv2d_4L.h5'
 model_4l = load_model(filename)
 
-app = Flask(__name__, template_folder = "templates", static_folder = "Static")
+app = Flask(__name__, template_folder = "templates", static_folder = "static")
 
 
 
